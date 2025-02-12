@@ -2,7 +2,7 @@
 let listaDeSorteados = [];
 let numeroSecreto = '';
 let tentativas = 1;
-let numeroLimite = 100;
+let numeroLimite = 50;
 
 function exibirTexto(tag, texto) {
     let campo = document.querySelector(tag);
@@ -62,7 +62,7 @@ function novoJogo() {
     numeroSecreto = gerarNumeroAleatorio()
     limparCampo();
     exibirTexto('h1', 'Jogo do numero secreto');
-    exibirTexto('p', 'Escolha um numero entre 1 e 100');
+    exibirTexto('p', 'Escolha um numero entre 1 e 50');
     tentativas = 1;
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
