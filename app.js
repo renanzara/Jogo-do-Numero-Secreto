@@ -29,8 +29,8 @@ function verificarChute() {
         exibirTexto('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
-        chute < numeroSecreto ? exibirTexto('p', 'O numero secreto é maior!') : 
-        exibirTexto('p', 'O numero secreto é menor!'); 
+        chute < numeroSecreto ? exibirTexto('p', 'O numero secreto é maior !') : 
+        exibirTexto('p', 'O numero secreto é menor !'); 
         tentativas++;
         limparCampo();
     }
